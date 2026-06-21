@@ -1,8 +1,3 @@
-# Entornos virtuales
-env_puentedata/
-venv/
-.env
-
 # Datos (NUNCA subir al repositorio)
 data/raw/*
 data/processed/*
@@ -12,10 +7,13 @@ data/processed/*
 *.db
 *.sqlite
 
-# Archivos de caché de Python y Jupyter
+# Archivos de cache de Python y Jupyter
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
 # Archivos de sistema operativo (Mac)
 .DS_Store
+
+# Entorno virtual
+env/
